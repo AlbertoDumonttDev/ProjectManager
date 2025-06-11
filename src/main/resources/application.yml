@@ -3,6 +3,8 @@ server:
       context-path: /
     port: 9090
 spring:
+  jackson:
+    default-property-inclusion: non_null
   application:
     name: PManager
   datasource:
